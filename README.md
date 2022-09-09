@@ -1,5 +1,5 @@
 # features until now
-1. add to cart
+1. Add to cart
 2. create and delete part of crud
 
 
