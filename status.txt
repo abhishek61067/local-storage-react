@@ -1,0 +1,1 @@
+completed except the daily and hourly section because the free api key doesnot give those data.

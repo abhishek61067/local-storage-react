@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #333;
+  color: #fff
+}
+
+.container h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.update .btn:first-child {
+  margin-right: 20px;
+}
+
+.taskBg {
+  background-color: #555;
+  border-radius: 6px;
+  margin: 20px 0;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+  display: flex;
+}
+
+.taskNumber {
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.taskBg div {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.taskBg .done {
+  flex: 2;
+}
+
+.taskBg div.iconsWrap {
+  flex: 1;
+}
+
+
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.taskBg .taskNumber {}
+
+.taskBg .taskText {
+  flex: 1;
+}
+
+.iconsWrap {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px;
+  cursor: pointer;
+  color: #00ff88;
+}
+
+.iconsWrap span:hover {
+  color: yellow;
+}
